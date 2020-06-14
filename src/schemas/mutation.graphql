@@ -1,0 +1,4 @@
+  
+type Mutation {
+    register(data: UserRegisterInput): User
+}

@@ -1,0 +1,8 @@
+type Address {
+    id: ID,
+    neighborhood: String,
+    street: String,
+    number: Integer,
+    zip_code: String,
+    city: City
+}

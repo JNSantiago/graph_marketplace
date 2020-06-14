@@ -1,0 +1,15 @@
+type User {
+    id: ID
+    email: String!
+    token: String
+}
+
+input UserRegisterInput {
+    email: String!
+    password: String!
+}
+
+input UserLoginInput {
+    email: String!
+    password: String!
+}

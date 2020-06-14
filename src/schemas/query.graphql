@@ -1,0 +1,4 @@
+type Query {
+    login(data: UserLoginInput!): User
+    users: [User]
+}
